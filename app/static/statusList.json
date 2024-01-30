@@ -1,0 +1,8 @@
+[
+  { "label": "Backlog", "value": 1 },
+  { "label": "Hold / Locked", "value": 2 },
+  { "label": "Todo", "value": 3 },
+  { "label": "Work in progress", "value": 4 },
+  { "label": "Testing", "value": 5 },
+  { "label": "Done", "value": 6 }
+]
