@@ -78,7 +78,7 @@ export default function ModalComponent(props: Props) {
         aria-describedby="alert-dialog-description"
       >
         <DialogTitle id="alert-dialog-title">
-          {data.id ? "Add New Todo" : "Edit Todo"}
+          {data.id ? "Edit Todo" : "Add New Todo"}
         </DialogTitle>
         <DialogContent>
           <Grid container spacing={2}>
