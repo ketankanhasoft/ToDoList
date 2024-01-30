@@ -12,7 +12,7 @@ import { useSubmit } from "@remix-run/react";
 import { db } from "~/server/prisma.server";
 import type { Prisma } from '@prisma/client';
 
-// interfave to-do list
+// interface to-do list
 export interface TableData {
   title: string
   description: string
@@ -101,7 +101,7 @@ export default function Component() {
       <div style={{display: "flex", justifyContent: "flex-end", paddingRight: "10px"}}>
 
       <Button variant="contained" onClick={handleClickOpen} sx={{ my: 4 }}>
-        Add New Task
+        Add New ToDo
       </Button>
       </div>
       {open && (
